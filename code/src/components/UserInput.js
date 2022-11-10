@@ -27,7 +27,7 @@ const UserInput = () => {
         <>
           <WelcomeText>GREETINGS PROFESSOR {userNameInputValue},</WelcomeText>
           <WelcomeText>HOW ARE YOU FEELING TODAY?</WelcomeText>
-          <WelcomeText>SHALL WE PLAY A GAME?</WelcomeText>
+          <WelcomeText>SHALL WE PLAY A GAME?Hurray</WelcomeText>
           <InputButton type="button" onClick={(e) => onFormSubmit(e)}>YES</InputButton>
           <InputButton type="button">NO</InputButton>
         </>
